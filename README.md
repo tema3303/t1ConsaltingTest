@@ -11,9 +11,11 @@
 # GET Request
 http://localhost:8080/calculate
 
-Запрос должен содержать параметр запроса input 
+Запрос должен содержать параметр запроса input.
+
 Пример:
 http://localhost:8080/calculate?input=aaaddbd
+
 В данном случае запрос вернет JSON: 
 {
 "a": 3,
